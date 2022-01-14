@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "-webkit-pictograph";
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+  .about{
+      padding-left: 123px;
+      padding-top: 100px;
+      text-align: left;
+      color: black;
+      size: 10px;
+      font-size: 124%;
+      
+  }
+  .contact{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 713px;
+  }
+
+  h1{
+      color: rgb(102, 84, 23);
+  }
+ 
+  img{
+      width: 100%;
+      position: absolute;
+      opacity: 0.8;
+      z-index: -1;
+      height: 713px;
+  }
+
+  .head{
+      text-align: center;
+      padding-top: 50px;
+      font-size: 65px;
+  }
