@@ -12,17 +12,18 @@ body{
 
 }
 
-nav{
+ nav{
     background: black;
-    height: 67px;
+    height: 57px;
     width: 100%;
     opacity: 0.9;
+    font-size: 21px;
 
-}
+} 
 
-nav ul{
+ nav ul{
     float: right;
-    margin-right: 30px;
+    margin-right: 54px;
 
 }
 
@@ -30,27 +31,18 @@ nav ul li{
     display: inline-block;
     line-height:80px ;
     margin: 0 5px;
+    color: #fff;
+    font-family: cursive;
 }
 
-nav ul li a{
+nav ul li a{ 
     color: azure;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 
-}
-
-
-.checkbtn{
-    font-size: 30px;
-    color: azure;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
+} 
 
 #check{
     display: none;
@@ -102,13 +94,13 @@ a:hover,a.active{
     text-align: right;
 }
 
-section{
+/* section{
       background: url('https://pixabay.com/images/id-2563713/') no-repeat; 
    
     background-size: cover;
     height: calc(100vh - 80px); 
 
-}
+} */
 .text-big2{
     padding: 10px;
     font-size: 35px;
@@ -139,10 +131,12 @@ section{
 
 .text-big{
     font-size: 35px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin: auto;
     padding: 10%;
+    position : absolute;
+    z-index: -1;
  }
 
  .donate1{
